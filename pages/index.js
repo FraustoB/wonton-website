@@ -1,27 +1,33 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import Image from 'next/image';
 import styles from '../styles/Home.module.scss';
-import Navbar from '../comps/Navbar';
 
 export default function Home() {
   return (
-    <>
-
+    <div className={styles.container}>
       <Head>
         <title>WonTonSoup | Home</title>
-        <meta name="WonTonSOup" content="WonTonSoup" />
-
+        <meta name="WonTonSuup" content="WonTonSoup" />
         <link
-          href=""
-          rel="" />
+          href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Lobster&display=swap'
+          rel="stylesheet" />
       </Head>
 
-      <Navbar />
-      <div className={styles.Background}>
-        Hello Moto
+      <div className={styles.Intro}>
+        Welcome To <span>WonTonSoup</span><Image src='/favicon.ico' height={50} width={50} />
+      </div>
+      <div className={styles.Photos}>
+
+        <span><Image src='/food1.jpg' height={350} width={500} /> Authentic</span>
+        <span><Image src='/food2.jpg' height={350} width={500} /> Asian</span>
+        <span><Image src='/food3.jpg' height={350} width={500} /> Cuisine</span>
       </div>
 
 
-    </>
+    </div>
   )
 }
