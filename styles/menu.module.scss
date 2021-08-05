@@ -1,0 +1,30 @@
+.Header{
+    margin-top: 6vw;
+    margin-left: 6vw;
+
+    p{
+        font-size: 2rem;
+       }
+
+       @media screen and (min-width: 822px){
+        display: flex;
+        justify-content: center;
+        margin-left:0%;
+    }
+    }
+
+
+.imageGridContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vw;
+
+    @media screen and (min-width: 822px){
+        margin: auto;
+        width: 50vw;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

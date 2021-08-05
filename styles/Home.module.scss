@@ -1,0 +1,56 @@
+@import 'mixins';
+
+
+
+.Intro{
+    margin-top: 2vw;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+
+    span{
+        color: black;
+        font-family: 'Zen Tokyo Zoo', cursive;
+    }
+}
+
+.ImgBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.Hours{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .Photos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+        span{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-family: 'Lobster';
+            font-size: 2rem;
+
+            p{
+                margin-bottom: -.5vh;
+            }
+        }
+
+        @media screen and (min-width:822px){
+            flex-direction: row;
+            gap: 4vw;
+            justify-content: center;
+        
+
+        }
+    }
+
+

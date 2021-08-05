@@ -1,0 +1,39 @@
+.CardContainer{
+    display: flex;
+    border: 2px solid grey;
+    justify-content: center;
+    width: 95%;
+    align-self: center;
+    flex-direction: column;
+    margin-top: 3vw;
+
+    
+    h2{
+        text-align: center;
+        padding-bottom: 22px;
+        border-bottom: 1px solid black;
+    }
+
+    @media screen and (min-width: 600px){
+        width: 600px;
+        height: 550px;
+    }
+
+    @media screen and (min-width: 821px){
+        width: 325px;
+        height: 365px;
+    }
+}
+
+
+.ImgContainer{
+    width: 100%;
+}
+ 
+.Price{
+    text-align: center;
+    padding-left: 4vw;
+    font-size: 1.25rem;
+    padding-bottom: 22px;
+    
+}

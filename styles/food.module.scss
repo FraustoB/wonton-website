@@ -1,0 +1,19 @@
+.h1{
+    padding-left: 5vw;                 
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  
+
+    @media screen and (min-width: 1000px){
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-auto-rows: minmax(300px, auto);
+        grid-gap: 3px;
+
+    }
+
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "name": "entree",
+        "food": [
+            {
+                "name": "Sushi",
+                "price": 5.99,
+                "imgSrc": "/images/FoodSushi.jpg",
+                "description": "Simple Sushi"
+            },
+            {
+                "name": "Rice",
+                "price": 7.99,
+                "imgSrc": "/images/FoodRice.jpg",
+                "description": "Simple Rice"
+            }
+        ]
+    },
+    {
+        "name": "appetizer",
+        "food": [
+            {
+                "name": "Rice",
+                "price": 3.99,
+                "imgSrc": "/images/food3.jpg",
+                "description": "Simple Dumplings"
+            }
+        ]
+    },
+    {
+        "name": "dessert",
+        "food": [
+            {
+                "name": "Ice Cream",
+                "price": 13.99,
+                "imgSrc": "/images/FoodDessert.jpg",
+                "description": "Simple Dessert"
+            }
+        ]
+    },
+    {
+        "name": "drinks",
+        "food": [
+            {
+                "name": "Boba",
+                "price": 5.99,
+                "imgSrc": "/images/FoodBoba.jpg",
+                "description": "Simple Boba"
+            }
+        ]
+    }
+]
