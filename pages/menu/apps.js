@@ -20,12 +20,17 @@ const Apps=[
         description: "Handmade Dumplings"
     }
 ]
+import Head from 'next/head';
 
 
 export default function menu() {
 
     return (
         <>
+            <Head>
+                <title>WonTonSoup | Appetizers</title>
+                <meta name='wontonsoup' content='wontonsoup' />
+            </Head>
             <h1 className={styles.h1}>Appetizers</h1>
             <div className={styles.Container}>
 

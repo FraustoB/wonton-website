@@ -7,6 +7,11 @@ export default function Location() {
 
         <>
             <Head>
+
+
+                <title>WonTonSoup | Location</title>
+                <meta name='wontonsoup' content='wontonsoup' />
+
                 <link
                     href='https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Oswald:wght@500&family=Rubik:ital,wght@1,300&display=swap'
                     rel="stylesheet"

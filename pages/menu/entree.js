@@ -1,5 +1,6 @@
 import FoodCards from "../../comps/FoodCards";
 import styles from '../../styles/food.module.scss';
+import Head from 'next/head';
 
 const Entree=[
     {
@@ -34,6 +35,10 @@ export default function menu() {
 
     return (
         <>
+            <Head>
+                <title>WonTonSoup | Entree</title>
+                <meta name='wontonsoup' content='wontonsoup' />
+            </Head>
             <h1 className={styles.h1}>Entree</h1>
             <div className={styles.Container}>
 
