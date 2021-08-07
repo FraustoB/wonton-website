@@ -13,6 +13,18 @@
         font-family: 'Zen Tokyo Zoo', cursive;
     }
 }
+.socials{
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 20rem;
+
+    @media screen and (min-width: 821px){
+        display: none;
+    }
+    
+}
 
 .ImgBtn{
     display: flex;

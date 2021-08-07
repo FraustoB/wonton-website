@@ -12,9 +12,9 @@ export default function Layout({ children }) {
             </div>
 
             {children}
-            <div className={styles.Footer}>
+            {/* <div className={styles.Footer}>
                 <Footer />
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -17,11 +17,19 @@ export default function Location() {
                     <h1> COME EAT WITH US</h1>
 
                     <div className={styles.address}>
-                        <h2>Name of location goes here</h2>
+                        <h2>Generic City, RealNation, CA</h2>
                         <p>
-                            Physical Address Here
+                            1001 address streetname unit #
                         </p>
+                    </div>
 
+                    <div className={styles.filler}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut
+                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
 
 
