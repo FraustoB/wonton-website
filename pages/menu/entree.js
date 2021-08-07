@@ -6,7 +6,7 @@ const Entree=[
     {
         name: "Fried Noodles",
         price: 8.99,
-        imgSrc: "/images/food1.jpg",
+        imgSrc: "/images/Food1.jpg",
         description: "Fried Egg Noodle"
     },
     {
